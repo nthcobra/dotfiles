@@ -1,0 +1,77 @@
+!! Appearance
+urxvt.termName: rxvt-unicode
+urxvt.scrollBar: false
+urxvt.background: black
+urxvt.foreground: gray
+URxvt.geometry: 100x30
+URxvt.borderWidth: 0
+URxvt.internalBorder: 0
+URxvt.externalBorder: 0
+
+!! Font prefferenes
+urxvt.font: xft:DejaVu Sans Mono:pixelsize=10
+urxvt.boldFont: xft:DejaVu Sans Mono:pixelsize=10:weight=bold
+urxvt.letterSpace: -1
+
+urxvt.mouseWheelScrollPage: true
+
+!! Tango color theme
+!! Strange - it matches tango from gnome-terminal, but looks different
+URxvt.color0: rgb:00/00/00
+URxvt.color1: rgb:CC/00/00
+URxvt.color2: rgb:4E/9A/06
+URxvt.color3: rgb:C4/A0/00
+URxvt.color4: rgb:34/65/A4
+URxvt.color5: rgb:75/50/7B
+URxvt.color6: rgb:06/98/9A
+URxvt.color7: rgb:D3/D7/CF
+URxvt.color8: rgb:55/57/53
+URxvt.color9: rgb:EF/29/29
+URxvt.color10: rgb:8A/E2/34
+URxvt.color11: rgb:FC/E9/4F
+URxvt.color12: rgb:5c/5c/ff
+URxvt.color13: rgb:AD/7F/A8
+URxvt.color14: rgb:34/E2/E2
+URxvt.color15: rgb:EE/EE/EC
+URxvt.colorBD: rgb:ff/ff/ff
+
+
+! start with TrueType fonts disabled
+XTerm.vt100.renderFont: true
+
+XTerm.vt100.geometry: 100x30
+XTerm.termName: xterm-256color
+XTerm.vt100.backarrowKey: false
+XTerm.ttyModes: erase ^?
+XTerm.vt100.faceName: Menlo:size=9
+XTerm.vt100.font: 7x10
+XTerm.scaleHeight: 1.10
+XTerm.vt100.faceSize: 10
+
+!Theme Nine
+xterm*background: #000000
+xterm*foreground: rgb:d6/d6/d6
+xterm*color0:     rgb:00/00/00
+xterm*color1:     rgb:CC/00/00
+xterm*color2:     rgb:4E/9A/06
+xterm*color3:     rgb:C4/A0/00
+xterm*color4:     rgb:00/5F/87
+xterm*color5:     rgb:75/50/7B
+xterm*color6:     rgb:06/98/9A
+xterm*color7:     rgb:D3/D7/CF
+xterm*color8:     rgb:4E/4E/4E
+xterm*color9:     rgb:EF/29/29
+xterm*color10:     rgb:8A/E2/34
+xterm*color11:     rgb:FC/E9/4F
+xterm*color12:     rgb:5c/5c/ff
+xterm*color13:     rgb:AD/7F/A8
+xterm*color14:     rgb:34/E2/E2
+xterm*color15:    rgb:EE/EE/EE
+
+xterm*cursorColor: #d6d6d6
+
+XTerm.vt100.translations: #override \n\
+    Ctrl <Key>J: scroll-forw(20[,line ]) \n\
+    Ctrl <Key>K: scroll-back(20[,line ])
+
+
